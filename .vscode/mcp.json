@@ -1,0 +1,16 @@
+{
+    "servers": {
+        "my-mcp-server": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp==2.1.1",
+                "mcp",
+                "run",
+                "${workspaceFolder}/MCP/mcp-server.py"
+            ]
+        }
+    }
+}
